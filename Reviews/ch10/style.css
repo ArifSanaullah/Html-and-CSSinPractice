@@ -1,0 +1,49 @@
+/* body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+} */
+/* h1, h2 {
+    color: bisque;
+}
+p {
+    color: #4f4f4f; 
+} */
+/* ##########################
+################################ */
+
+:root {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+body {
+  font-family: Arial, Verdana, sans-serif;
+  color: #665544;
+  padding: 10px;
+}
+/* h1 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+i {
+  color: green;
+}
+i {
+  color: aqua;
+}
+b {
+  color: rgb(78, 109, 99);
+}
+p b {
+  color: blue !important;
+}
+p b {
+  color: violet;
+}
+p#intro {
+  font-size: 120%;
+}
+p {
+  font-size: 80%;
+} */
+.page {
+  border: 1px solid #665544;
+  background-color: #efefef;
+  padding: inherit;
+}

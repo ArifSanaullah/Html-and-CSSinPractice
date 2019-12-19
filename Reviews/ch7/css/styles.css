@@ -1,0 +1,60 @@
+body {
+    padding: 0%;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #eeeeee;
+}
+div.main-form {
+    margin-top: 5%;
+    margin-left: 15%;
+    width: 50%;
+    padding: 5% 10% 5% 10%;
+    border: 2px solid ;
+}
+.legend {
+    border-bottom: 2px solid #7f7f7f;
+    margin-bottom: 2em;
+    padding-bottom: 2%;
+
+}
+span.star {
+    color: red;
+}
+input,div.regarding-field select {
+    width: 40%;
+    padding: 5px 8px 5px 8px;
+    border: 1px solid #7f7f7f;
+    margin-bottom: 1.5%;
+    border-radius: 3px;
+}
+div.telephone-fields label, div.regarding-field label{
+    margin-right: 20%;
+}
+div.main-form span.star {
+    margin-right: 20%;
+}
+div.main-form input.align-right, div.telephone-fields input.align-right, div.regarding-field select, textarea{
+    float: right;
+}
+span p.display-inline {
+    color: red;
+    display: inline;
+}
+div.message textarea {
+    width: 40%;
+    padding: 5px 8px 5px 8px;
+}
+div.regarding-field select {
+    width: 45%;
+}
+input[type="submit"] {
+    margin-top: 10%;
+    position: relative;
+    left: 30%;
+    background-color: rgb(77, 176, 233);
+    border: 2px solid burlywood;
+    font-weight: bold;
+    font-size: 1.0em;
+    color: burlywood;
+    border-radius: 1.2em;
+}

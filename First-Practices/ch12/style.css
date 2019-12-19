@@ -1,0 +1,40 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+h1{
+    font-size: 2rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: darkblue;
+}
+img {
+    width: 30%;
+    height: auto;
+    display: block;
+}
+.main-container {
+    border: 3px solid #4f4f4f;
+}
+.header {
+    background: #9f9f9f;
+}
+.sub-container {
+    background: #afafaf;
+    
+}
+
+.header h1 span {
+    font-size: 12px;
+}
+.drop {
+    width: 100%;
+    height: 40px;
+
+}
+p {
+    line-height: 24px;
+}
+.header h1 span {
+    color: black;
+    padding-left: 1rem;
+}

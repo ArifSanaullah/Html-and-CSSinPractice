@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: assignment-2
+spec:
+  replicas: 3
+  selector:
+    matchLabels:        # labels the replica selector should match
+      test: assign-2
+  template:
+    metadata:
+      labels:
+        test: assign-2      # label for replica selector to match
+      name: assign-2-pod
+    spec:
+      containers:
+      - name: assign-cont
+        image: arifsanaullah/assignment-2
+        ports:
+        - containerPort: 80

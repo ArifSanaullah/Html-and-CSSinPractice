@@ -1,0 +1,190 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #0f0f0f;
+  padding: 0% 0% 0% 8%;
+}
+ol.list-one {
+  list-style-type: lower-roman;
+}
+ul.list-two {
+  width: 100%;
+  height: 100%;
+  list-style-position: inside;
+}
+ul.list-two li {
+  margin: 0px;
+  padding: 36px 0px 36px 54px;
+  list-style: none;
+  background-image: url("/ch14/images/star");
+  background-repeat: no-repeat;
+  background-position: left center;
+  background-size: 40px;
+}
+div ul.list-three {
+  list-style: inside square;
+}
+div ul.list-three li {
+  margin: 10px 0px 0px 0px;
+}
+div table.table-zero {
+  width: 90%;
+  border-collapse: collapse;
+}
+div table.table-zero th,
+div table.table-zero td {
+  padding: 7px 10px 10px 10px;
+  text-align: left;
+}
+div table.table-zero th {
+  font-size: 1.2em;
+  letter-spacing: 0.1em;
+  border-bottom: 3px solid #4f4f4f;
+  border-top: 2px solid #afafaf;
+  text-transform: uppercase;
+}
+div table.table-zero tr.even {
+  background-color: #efefef;
+}
+div table tr td.money {
+  text-align: right;
+}
+div table.table-zero tr:hover {
+  background-color: #afafaf;
+}
+div table.table-zero td:hover {
+  background-color: #8f8f8f;
+}
+div table.table-one {
+  empty-cells: show;
+  border-collapse: collapse;
+  width: 50%;
+}
+div table.table-one td {
+  border: 1px solid darksalmon;
+}
+div table.table-two {
+  empty-cells: hide;
+  border-spacing: 10px 20px;
+  width: 50%;
+}
+div table.table-two td {
+  border: 1px solid darkkhaki;
+}
+/* form start here */
+form {
+  width: 80%;
+}
+form input {
+  font-size: 0.75em;
+  color: lightslategray;
+  background-color: #f2f2f2;
+  border: 1px solid #bdbdbd;
+  border-radius: 25px;
+  padding: 6px 10px 6px 10px;
+}
+form input[type="password"]::placeholder,
+form input[type="text"]::placeholder,
+form input[type="email"]::placeholder {
+  padding: 0 0 0 6px;
+}
+form input[type="text"]:focus,
+form input[type="password"]:focus,
+form input[type="email"]:focus {
+  background-color: rgb(223, 233, 255);
+}
+form input[type="text"],
+form input[type="password"],
+form input[type="email"] {
+  width: 40%;
+  float: right;
+  margin-right: 10px;
+}
+form select {
+    padding: 5px 4px 5px 4px;
+  margin-right: 10px;
+  width: 45%;
+  border: 1px solid #bdbdbd;
+  border-radius: 25px;
+  background-color: #f2f2f2;
+  color: lightslategray;
+  float: right;
+}
+form label.gender {
+  margin-right: 2.2%;
+}
+form input#submit {
+  width: 5em;
+  background-color: slateblue;
+  color: seashell;
+  font-size: 1.2em;
+  font-weight: lighter;
+  border: 2px solid seashell;
+  margin: 0.8% 0% 0% 6.5%;
+  text-shadow: 0px 1.2px 1px rgb(158, 247, 253);
+}
+form input#submit {
+  color: #444444;
+  text-shadow: 0px 1px 1px #ffffff;
+  border-bottom: 2px solid #b2b2b2;
+  background-color: #b9e4e3;
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#beeae9),
+    to(#a8cfce)
+  );
+  background: -moz-linear-gradient(top, #beeae9, #a8cfce);
+  background: -o-linear-gradient(top, #beeae9, #a8cfce);
+  background: -ms-linear-gradient(top, #beeae9, #a8cfce);
+}
+input#submit:hover {
+  color: #333333;
+  border: 1px solid #a4a4a4;
+  border-top: 2px solid #b2b2b2;
+  background-color: #a0dbc4;
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#a8cfce),
+    to(#beeae9)
+  );
+  background: -moz-linear-gradient(top, #a8cfce, #beeae9);
+  background: -o-linear-gradient(top, #a8cfce, #beeae9);
+  background: -ms-linear-gradient(top, #a8cfce, #beeae9);
+}
+form fieldset {
+  border: 2px solid #a4a4a4;
+  border-radius: 10px;
+  width: 50%;
+  text-align: left;
+}
+form legend {
+  background-color: #e9fcfb;
+  border: #a4a4a4 solid 2px;
+  border-radius: 5px;
+  padding: 7px 10px 7px 10px;
+  text-transform: uppercase;
+}
+div {
+  border-bottom: 1px solid #efefef;
+  margin: 2% ;
+  padding-bottom: 30px;
+  width: 100%;
+}
+div label.title {
+  float: left;
+  width: 100px;
+  text-align: left;
+  padding-right: 10px;
+  margin-top: 1.5%;
+}
+.value {
+    /* margin-right: 10%; */
+    margin-top: -0.5%;
+}
+.image {
+  background: url(../images/allie-smith-TH3ax0OeiX0-unsplash.jpg) no-repeat;
+  background-size: 100px 100px ;
+}

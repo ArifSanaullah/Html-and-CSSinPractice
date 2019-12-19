@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Chapter 7 | Forms</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <div class="main-form">
+      <form action="https://www.google.com" method="GET">
+        <div class="legend">
+          <legend>Provide Your Ingo</legend>
+        </div>
+        <div class="name-fields">
+          <label for="name">Name</label><span class="star">*</span>
+          <input type="text" name="username" id="name" class="align-right" />
+        </div>
+        <br />
+        <div class="email-fields">
+          <label for="email">Email</label><span class="star">*</span>
+          <input type="email" name="useremail" id="email" class="align-right" />
+        </div>
+        <br />
+        <div class="telephone-fields">
+          <label for="telephone">Telephone</label>
+          <input
+            type="text"
+            name="tel-one"
+            id="telephone"
+            class="cellphone align-right"
+          />
+        </div>
+        <br>
+        <div class="regarding-field">
+          <label for="regarding">Regarding</label>
+          <select name="regarding" id="regarding">
+            <option value="general">General</option>
+            <option value="adv">Advertisement</option>
+            <option value="partnership">Partnership</option>
+          </select>
+        </div>
+        <br>
+        <div class="message">
+          <label for="message">Message</label>
+          <span class="star">*</span>
+          <textarea name="message" id="message"></textarea>
+        </div>
+        <br>
+        <div>
+          <input type="submit" name="submit" id="submit" />
+        </div>
+      </form>
+    </div>
+  </body>
+</html>

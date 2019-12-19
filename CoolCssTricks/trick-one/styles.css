@@ -1,0 +1,17 @@
+.main {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: auto auto;
+}
+.msg {
+  font-size: 1.5em;
+  background: lightblue;
+  padding: 5px 3px;
+  opacity: 0;
+  -webkit-transition: opacity 1000ms ease-in-out;
+  transition: opacity 1000ms ease-in-out;
+}
+input:not(:placeholder-shown) + .msg {
+  opacity: 1;
+}

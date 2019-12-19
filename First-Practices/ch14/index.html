@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Chapter 14</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <h1>This is Chapter 14 | Lists, Tables and Forms</h1>
+        
+    <ol class="list-one">
+      <li>One</li>
+      <li>Two</li>
+      <li>Three</li>
+      <li>Four</li>
+      <li>Five</li>
+    </ol>
+    <div>
+      <ul class="list-two">
+        <li>One</li>
+        <li>Two</li>
+        <li>Three</li>
+        <li>Four</li>
+        <li>Five</li>
+      </ul>
+    </div>
+    <div>
+      <h1>Quotes from Edgar Allan Poe</h1>
+      <ul class="list-three">
+        <li>
+          I have great faith in fools; self-confidence my friends call it. Lorem ipsum dolor sit amet.
+        </li>
+        <li>All that we see or seem is but a dream within Lorem ipsum dolor sit amet.a dream.</li>
+        <li>
+          I would define, in brief, the poetry of words as the rhythmical
+          creation of Beauty.
+        </li>
+      </ul>
+    </div>
+    <div>
+      <h1>First Edition Auctions</h1>
+      <table class="table-zero">
+        <tr>
+          <th>Author</th>
+          <th>Title</th>
+          <th class="money">Reserve Price</th>
+          <th class="money">Current Bid</th>
+        </tr>
+        <tr>
+          <td>E.E. Cummings</td>
+          <td>Tulips & Chimneys</td>
+          <td class="money">$2,000.00</td>
+          <td class="money">$2,642.50</td>
+        </tr>
+        <tr class="even">
+          <td>Charles d'Orleans</td>
+          <td>Poemes</td>
+          <td class="money"></td>
+          <td class="money">$5,866.00</td>
+        </tr>
+        <tr>
+          <td>T.S. Eliot</td>
+          <td>Poems 1909 - 1925</td>
+          <td class="money">$1,250.00</td>
+          <td class="money">$8,499.35</td>
+        </tr>
+        <tr class="even">
+          <td>Sylvia Plath</td>
+          <td>The Colossus</td>
+          <td class="money"></td>
+          <td class="money">$1031.72</td>
+        </tr>
+      </table>
+    </div>
+    <div>
+      <table class="table-one">
+        <tr>
+          <td>1</td>
+          <td>2</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td></td>
+        </tr>
+      </table>
+
+      <table class="table-two">
+        <tr>
+          <td>1</td>
+          <td>2</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td></td>
+        </tr>
+      </table>
+    </div>
+    <form action="submit" class="query-from">
+      <div>
+        <fieldset>
+          <legend>My Form Query</legend>
+          <div>
+            <label for="username" class="title">User Name: </label>
+            <input
+              class="value"
+              required
+              type="text"
+              name="username"
+              id="username"
+              placeholder="Enter Your Name"
+            />
+          </div>
+          <div>
+            <label for="email" class="title">Email: </label>
+            <input
+              class="value"
+              required
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Email"
+            />
+          </div>
+          <div>
+            <label for="password" class="title">Passoword: </label>
+            <input
+              class="value"
+              required
+              type="password"
+              name="password"
+              id="password"
+              placeholder="Enter Password"
+            />
+          </div>
+          <div>
+            <label for="select" class="select" class="title">Select: </label>
+            <select class="value" name="device" id="device">
+              <option value="cell">Cell Phone</option>
+              <option value="laptop">Laptop</option>
+              <option value="computer">Computer</option>
+            </select>
+          </div>
+          <div>
+            <label for="gender" class="gender" class="title">Gender: </label>
+            <input type="radio" class="value1" name="sex" id="male" checked />
+            Male
+            <input type="radio" name="sex" class="value1" id="female" /> Female
+            <input type="radio" name="sex" id="other" class="value1" /> Other
+            <input type="submit" name="submit" id="submit" />
+          </div>
+        </fieldset>
+      </div>
+    </form>
+    <form action="">
+      <input type="text" name="" id="" class="image">
+      <input type="text" name="" id="">
+      <input type="text" name="" id="">
+    </form>
+  </body>
+</html>
