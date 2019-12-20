@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.curved {
+    width: 100vw;
+    /* height: fit-content; */
+    /* display: block; */
+    background-color: #ff0000;
+    /* padding: 5rem 0rem 0rem 0rem; */
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.paragraph {
+    width: 80%;
+    margin: 0 auto;
+}
+.curved svg {
+    display: block;
+}
+.upper.curve {
+    background-color: #fff;
+}
+.upper.curve svg {
+    display: block;
+    z-index: 2000;
+}
