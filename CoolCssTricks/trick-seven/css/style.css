@@ -23,7 +23,7 @@ body {
 }
 .text-content::before,
 .text-content::after {
-  content: "The Glitch Effect";
+  content: attr(glitch-text);
   width: 100%;
   height: 100%;
   left: -1px;
